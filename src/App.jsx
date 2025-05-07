@@ -219,6 +219,15 @@ function App() {
 
       <footer>
         <p>WebP Converter - Convertissez et compressez vos images facilement</p>
+        <div className="legal-notice">
+          <p>Mentions légales :</p>
+          <ul>
+            <li>Toutes les images sont traitées localement dans votre navigateur</li>
+            <li>Aucune donnée n'est stockée sur des serveurs distants</li>
+            <li>Aucune information personnelle n'est collectée</li>
+            <li>L'application respecte votre vie privée à 100%</li>
+          </ul>
+        </div>
       </footer>
     </div>
   )

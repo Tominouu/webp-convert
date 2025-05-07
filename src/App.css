@@ -204,10 +204,33 @@ table th {
 }
 
 footer {
+  margin-top: 2rem;
   text-align: center;
-  margin-top: 3rem;
   color: #64748b;
+}
+
+.legal-notice {
+  margin-top: 1.5rem;
+  padding: 1rem;
+  background-color: #f8fafc;
+  border-radius: 8px;
+  text-align: left;
+}
+
+.legal-notice p {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.legal-notice ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.legal-notice li {
+  margin: 0.5rem 0;
   font-size: 0.9rem;
+  color: #475569;
 }
 
 /* Responsive styles */
